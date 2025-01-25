@@ -1,15 +1,16 @@
 {
   "name": "knife-detection",
   "version": "1.0.0",
-  "description": "Knife detection app",
+  "description": "A knife detection web app using TensorFlow.js",
   "main": "server.js",
   "scripts": {
-    "start": "yarn run serve"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "path": "^0.12.7"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.x"
   }
 }
